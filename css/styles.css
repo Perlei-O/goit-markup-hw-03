@@ -151,7 +151,7 @@ img {
 }
 
 .hero-title {
-  align-items: center;
+  align-content: center;
   padding-top: 200px;
   padding-bottom: 280px;
   padding-left: 452px;
