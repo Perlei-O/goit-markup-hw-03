@@ -58,6 +58,8 @@ img {
 }
 .header {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-nav {
@@ -72,8 +74,6 @@ img {
 
 .header-list {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-item:not(:last-child) {
@@ -89,8 +89,6 @@ img {
 
 .header-logo {
   margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .header-logo-web {
@@ -142,8 +140,6 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .hero {
