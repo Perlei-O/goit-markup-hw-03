@@ -72,6 +72,8 @@ img {
 
 .header-list {
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-item:not(:last-child) {
@@ -140,6 +142,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .hero {
@@ -151,7 +155,7 @@ img {
 
 .hero-title {
   text-align: center;
-  font-weight: 900px;
+  font-weight: 900;
   max-width: 696px;
   font-family: Roboto;
   font-style: normal;
@@ -178,8 +182,12 @@ img {
   margin: 0 auto;
 }
 
-.feature-list {
+.section {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.feature-list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -193,8 +201,12 @@ img {
   margin-right: 30px;
 }
 
-.advant-title {
+.advant {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.advant-title {
   margin-bottom: 50px;
 }
 .advant-list {
@@ -209,7 +221,6 @@ img {
 }
 
 .section-title {
-  padding-top: 94px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -218,6 +229,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-title-color);
+  margin-right: 30px;
 }
 
 .section-title-list {
@@ -243,6 +255,8 @@ img {
 
 .empl {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .empl-list {
@@ -270,10 +284,6 @@ img {
 }
 
 .empl-element {
-  margin-right: 30px;
-  margin-top: 50px;
-}
-.empl-element:nth(:last-child) {
   margin-right: 30px;
 }
 
@@ -311,17 +321,14 @@ img {
 .footer {
   background-color: var(--third-title-color);
 }
-.footer-logo {
+.footer {
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
+  padding-left: 215px;
 }
 
 .footer-list {
   margin-top: 9px;
-}
-
-.footer-list:last-of-type {
-  padding-bottom: 60px;
 }
 
 .address {
@@ -366,6 +373,12 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
+  padding: 6px 22px;
+}
+
+.portfolio-page {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .portfolio {
@@ -373,12 +386,10 @@ img {
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-  padding-left: 0;
-  padding-top: 94px;
 }
 
 .portfolio-item {
-  margin-right: 30px;
+  margin-right: 8px;
   background-color: var(--accent-color);
   border-radius: 4px;
 }
@@ -410,7 +421,7 @@ img {
 }
 
 .project-list-item {
-  width: 370px;
+  flex-basis: auto;
   margin-right: 30px;
   margin-bottom: 30px;
 }
